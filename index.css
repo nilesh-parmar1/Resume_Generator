@@ -1,65 +1,98 @@
-   /* background: linear-gradient(130deg, #e8458b, #363553); */
-   /* background: linear-gradient(130deg, #ec008c, #00188f); */
-   .pageHead {
-      background: linear-gradient(130deg, #3c7055, #221738);
-      border: 2px solid #0d1b2a;
-      border-radius: 12px;
-      padding: 20px;
-      margin: 20px auto;
-      width: 80%;
-      text-align: center;
-      color: white;
-      font-weight: bold;
-      box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
-      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-      position: relative;
-      padding-bottom: 50px; /* Adjusted space for tagline */
-   }
-   
-   .tagline {
-      font-size: 14px;
-      font-weight: 500;
-      color: white;
-      border: 2px solid black;
-      border-radius: 20px;
-      padding: 5px 10px;
-      display: inline-block;
-      background: rgba(0, 0, 0, 1);
-      
-      /* Updated Positioning */
-      position: absolute;
-      bottom: 0px; /* Adjusted for correct placement */
-      left: 50%;
-      transform: translateX(-50%);
-      white-space: nowrap; /* Prevents wrapping */
-   }
-   
+.pageHead {
+   background: linear-gradient(130deg, #3c7055, #221738);
+   border: 2px solid #0d1b2a;
+   border-radius: 60px 12px 60px 12px;
+   padding: 20px;
+   margin: 20px auto;
+   width: 80%;
+   text-align: center;
+   color: white;
+   font-weight: bold;
+   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+   position: relative;
+   padding-bottom: 50px;
+}
 
+.tagline {
+   font-size: 14px;
+   font-weight: 500;
+   color: white;
+   border: 2px solid black;
+   border-radius: 20px;
+   padding: 5px 10px;
+   display: inline-block;
+   background: rgba(0, 0, 0, 1);
+   position: absolute;
+   bottom: 0px;
+   left: 50%;
+   transform: translateX(-50%);
+   white-space: nowrap;
+}
 
+.bg-image {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   min-height: 100%;
+   padding-bottom: 1500px;
+   background: url('image/bg.jpg');
+   background-size: auto;
+   background-repeat: repeat-y;
+   background-position: center;
+   z-index: -1;
+   opacity: 0.3;
+   filter: saturate(10%);
+}
 
-   .cssProp {
-      font-size: 16px;
-      font-weight: 600;
-      color: white;
-      background: linear-gradient(130deg, #221738, #3c7055); /* Same as .pageHead */
-      display: inline-block; /* Prevents full width */
-      padding: 7px 50px 7px 25px; /* Extra left padding */
-      border-radius: 10px 10px 0px 0px; /* Fully rounded top, no bottom radius */
-      margin-bottom: 0px; /* Eliminates gap between label and input */
-      margin-left: 0px; /* Keeps left margin */
-      /* width: 50%; Label is half the width of input */
-      text-align: left; /* Aligns text to the left */
-      
-      
-   }
-   
-   .form-control {
-      width: 100%; /* Makes sure input takes full width */
-      padding: 10px;
-      font-size: 14px;
-      border: 1px solid #ccc;
-      border-radius: 0px 10px 10px 10px; /* Removes top corners, only bottom rounded */
-      box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
-   }
-   
-   
+.grad {
+   font-size: 25px;
+   color: rgb(0, 0, 0);
+   text-align: center;
+   padding: 15px;
+   border-radius: 10px;
+   margin: 0;
+   width: 100%;
+   background: linear-gradient(130deg, rgba(19, 22, 40, 0.419), rgba(0, 50, 50, 0.2));
+   backdrop-filter: blur(12px);
+   -webkit-backdrop-filter: blur(12px);
+   box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.1), 0 4px 6px rgba(0, 0, 0, 0.4);
+   border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+   fill-opacity: .5;
+}
+
+.Info {
+   background: rgba(0, 0, 0, 0.1);
+   backdrop-filter: blur(10px);
+   -webkit-backdrop-filter: blur(10px);
+   border: 1px solid rgba(255, 255, 255, 0.2);
+   border-radius: 15px;
+   padding: 20px;
+   margin-bottom: 50px;
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+   color: rgb(0, 0, 0);
+}
+
+.cssProp {
+   font-size: 16px;
+   font-weight: 600;
+   color: white;
+   background: linear-gradient(130deg, #221738, #3c7055);
+   display: inline-block;
+   padding: 7px 50px 7px 20px;
+   border-radius: 10px 10px 0px 0px;
+   margin-bottom: 0px;
+   margin-left: 0px;
+   text-align: left;
+}
+
+.form-control {
+   width: 100%;
+   padding: 10px;
+   font-size: 15px;
+   border: 1px solid #ccc;
+   border-radius: 0px 10px 10px 10px;
+   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+
+}

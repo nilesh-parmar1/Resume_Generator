@@ -7,7 +7,6 @@ function addNewWEField() {
   newNode.classList.add("mt-2")
   newNode.setAttribute("rows", 2);
   newNode.setAttribute("placeholder", "Add more here");
-
   let weOb = document.getElementById("we");
   let weAddButtonOb = document.getElementById("weAddButton"); // Fixed this line
   
