@@ -101,7 +101,19 @@
    margin-bottom: 50px;
    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
    color: rgb(0, 0, 0);
+   width: 100%;
+   max-width: 95%;
+   overflow: hidden;
 }
+
+@media (max-width: 600px) {
+   .Info {
+      max-width: 90%;
+      padding: 15px;
+      border-radius: 10px;
+   }
+}
+
 
 .cssProp {
    font-size: 16px;
