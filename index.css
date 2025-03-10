@@ -12,6 +12,7 @@
    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
    position: relative;
    padding-bottom: 30px;
+   
 }
 
 .tagline {
@@ -97,7 +98,7 @@
    -webkit-backdrop-filter: blur(10px);
    border: 1px solid rgba(255, 255, 255, 0.2);
    border-radius: 15px;
-   padding: 20px;
+   padding: 20px ;
    margin-bottom: 50px;
    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
    color: rgb(0, 0, 0);
@@ -109,8 +110,11 @@
 @media (max-width: 600px) {
    .Info {
       max-width: 90%;
-      padding: 15px;
+      
       border-radius: 10px;
+      margin-left: 20px;
+      margin-right: 20px;
+
    }
 }
 
