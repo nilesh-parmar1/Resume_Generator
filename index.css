@@ -73,7 +73,7 @@
    background-position: center;
    z-index: -1;
    opacity: 0.3;
-   filter: saturate(10%);
+   filter: saturate(50%);
 }
 
 .grad {
@@ -126,3 +126,4 @@
    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
 
 }
+
