@@ -1,3 +1,65 @@
-.pageHead {
-   color: ;
-}
+   /* background: linear-gradient(130deg, #e8458b, #363553); */
+   /* background: linear-gradient(130deg, #ec008c, #00188f); */
+   .pageHead {
+      background: linear-gradient(130deg, #3c7055, #221738);
+      border: 2px solid #0d1b2a;
+      border-radius: 12px;
+      padding: 20px;
+      margin: 20px auto;
+      width: 80%;
+      text-align: center;
+      color: white;
+      font-weight: bold;
+      box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+      position: relative;
+      padding-bottom: 50px; /* Adjusted space for tagline */
+   }
+   
+   .tagline {
+      font-size: 14px;
+      font-weight: 500;
+      color: white;
+      border: 2px solid black;
+      border-radius: 20px;
+      padding: 5px 10px;
+      display: inline-block;
+      background: rgba(0, 0, 0, 1);
+      
+      /* Updated Positioning */
+      position: absolute;
+      bottom: 0px; /* Adjusted for correct placement */
+      left: 50%;
+      transform: translateX(-50%);
+      white-space: nowrap; /* Prevents wrapping */
+   }
+   
+
+
+
+   .cssProp {
+      font-size: 16px;
+      font-weight: 600;
+      color: white;
+      background: linear-gradient(130deg, #221738, #3c7055); /* Same as .pageHead */
+      display: inline-block; /* Prevents full width */
+      padding: 7px 50px 7px 25px; /* Extra left padding */
+      border-radius: 10px 10px 0px 0px; /* Fully rounded top, no bottom radius */
+      margin-bottom: 0px; /* Eliminates gap between label and input */
+      margin-left: 0px; /* Keeps left margin */
+      /* width: 50%; Label is half the width of input */
+      text-align: left; /* Aligns text to the left */
+      
+      
+   }
+   
+   .form-control {
+      width: 100%; /* Makes sure input takes full width */
+      padding: 10px;
+      font-size: 14px;
+      border: 1px solid #ccc;
+      border-radius: 0px 10px 10px 10px; /* Removes top corners, only bottom rounded */
+      box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+   }
+   
+   

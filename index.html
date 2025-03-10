@@ -15,8 +15,9 @@
 <body>
 
   <div class="container">
-    <h1 class="text-center my-2 pageHead "> Resume Generator</h1>
-    <p class="text-center my-2">By Track Storm | Where Ideas Take Flight!</p>
+    <div class="pageHead"> <h1 class="text-center my-2  "> Resume Generator</h1>
+      <p class="text-center my-2 tagline">By Track Storm | Where Ideas Take Flight!</p> </div>
+    <!-- <p class="text-center my-2 tagline">By Track Storm | Where Ideas Take Flight!</p> -->
     <div class="row">
 
       <!-- personal information start here -->
@@ -25,7 +26,7 @@
         <h3>Personal Information</h3>
     
         <div class="form-group mt-4">
-          <label for="nameField">Your Name</label>
+          <label for="nameField" class="cssProp">Your Name</label>
           <input 
               type="text" 
               id="nameField" 
@@ -34,7 +35,7 @@
         </div>
 
         <div class="form-group mt-4">
-          <label for="emailField">Your Email</label>
+          <label for="emailField" class="cssProp">Your Email</label>
           <input 
               type="text" 
               id="emailField" 
@@ -43,7 +44,7 @@
         </div>
     
         <div class="form-group mt-4" >
-          <label for="numField">Your Phone Number</label>
+          <label for="numField" class="cssProp">Your Phone Number</label>
           <input 
             type="text" 
             id="numField" 
@@ -53,7 +54,7 @@
 
 
         <div class="form-group mt-4" >
-          <label for="addressField">Your Address </label>
+          <label .for="addressField" class="cssProp">Your Address </label>
           <textarea
             id="addressField" 
               class="form-control" 
@@ -65,7 +66,7 @@
         <p class="text-secondary mt-5">Important Links</p>
 
         <div class="form-group " >
-          <label for="fbField">Facebook</label>
+          <label for="fbField" class="cssProp">Facebook</label>
           <input 
             type="text" 
             id="fbField" 
@@ -74,7 +75,7 @@
         </div>
 
         <div class="form-group mt-4" >
-          <label for="instaField">Instagram</label>
+          <label for="instaField" class="cssProp" >Instagram</label>
           <input 
             type="text" 
             id="instaField" 
@@ -83,7 +84,7 @@
         </div>
 
         <div class="form-group mt-4" >
-          <label for="linkedinField">Linkedin</label>
+          <label for="linkedinField" class="cssProp">Linkedin</label>
           <input 
             type="text" 
             id="linkedinField" 
@@ -101,7 +102,7 @@
 
 
         <div class="form-group mt-4" >
-          <label for="objField">Objective </label>
+          <label for="objField" class="cssProp">Objective </label>
           <textarea
             class="form-control" 
             placeholder="Enter Objective here "
@@ -110,7 +111,7 @@
         </div>
 
         <div class="form-group mt-4" id="we" >
-          <label for="objField">Work Experience </label>
+          <label for="objField" class="cssProp">Work Experience </label>
           <textarea
             class="form-control weField" 
             placeholder="eg. Software Engineer at XYZ Company (Duration)"
@@ -124,7 +125,7 @@
         <!-- here we added new text area dynamically for work experience -->
 
         <div class="form-group mt-4" id="aq" >
-          <label for="objField">Academic Qualifications </label>
+          <label for="objField" class="cssProp">Academic Qualifications </label>
           <textarea
             class="form-control aqField" 
             placeholder="eg.  B.Tech in CSE, Passing Year, CGPA"
