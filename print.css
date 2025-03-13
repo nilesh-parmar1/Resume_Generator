@@ -1,0 +1,50 @@
+
+
+
+.background {
+  /* border-radius: 10px; */
+  background-color: powderblue;
+}
+
+#leftCol {
+  border-radius: 0px;
+  width: 300px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100vh; /* Ensure sidebar extends full height */
+  background-color: #a8dde3; /* Light blue */
+  padding: 20px; /* Proper padding */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Align content at the top */
+  align-items: center; /* Align content to center horizontally */
+  text-align: center;
+}
+
+
+
+#rightCol {
+  margin-top: -10px; 
+  width: 450px;
+  padding-bottom: 100%;
+  position:fixed;
+  top: 0px;
+  right: 25px;
+  z-index: -1;
+}
+
+
+.card-header{
+  padding-top: 3px;
+  padding-bottom: 0px;
+}
+
+
+.slider-container {
+  display:none;
+}
+
+.bg-image {
+  display: none;
+}

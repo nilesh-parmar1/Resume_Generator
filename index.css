@@ -15,6 +15,9 @@
    
 }
 
+
+
+
 .tagline {
    font-size: 14px;
    font-weight: 500;
@@ -61,13 +64,12 @@
 
 
 .bg-image {
-   position: absolute;
+   position: fixed;
    top: 0;
    left: 0;
-   width: 100%;
+   width:100% ;
    min-height: 100%;
    padding-bottom: 2300px;
-   background: url('image/bg.jpg');
    background-size: auto;
    background-repeat: repeat-y;
    background-position: center;
@@ -104,18 +106,20 @@
    color: rgb(0, 0, 0);
 }
 
-.cssProp {
+ .cssProp {
    font-size: 16px;
    font-weight: 600;
    color: white;
-   background: linear-gradient(130deg, #221738, #3c7055);
+   /* background: linear-gradient(130deg, #221738, #3c7055); */
+   /* background: linear-gradient(130deg, #000000, #434343); */
+   background: linear-gradient(130deg, #000000, #434343);
    display: inline-block;
    padding: 7px 50px 7px 20px;
    border-radius: 10px 10px 0px 0px;
    margin-bottom: 0px;
    margin-left: 0px;
    text-align: left;
-}
+} 
 
 .form-control {
    width: 100%;
@@ -124,6 +128,29 @@
    border: 1px solid #ccc;
    border-radius: 0px 10px 10px 10px;
    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+/* resume section */
+
+/* #resume-form{
+   display: none;
+} */
+
+#resume-template{
+   display: none;
 
 }
+
+.myImg{
+   border: 1px solid black;
+   border-radius: 50%;
+   width: 150px;
+}
+
+.background{
+   background-color: powderblue;
+   border-radius: 10px;
+}
+
 
