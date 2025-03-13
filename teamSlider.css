@@ -29,12 +29,12 @@
   flex-wrap: nowrap;
 
   width: calc(290px * 10);
-  animation: scroll 20s linear infinite; /* Adjusted for seamless loop */
+  animation: scroll 25s linear infinite; /* Adjusted for seamless loop */
 }
 
 @keyframes scroll {
   0% { transform: translateX(0); }
-  100% { transform: translateX(calc(-200px * 5)); } /* Moves only half due to duplication */
+  100% { transform: translateX(calc(-2px * 5)); } /* Moves only half due to duplication */
 }
 .profile {
   background: rgba(255, 255, 255, 0.1);
