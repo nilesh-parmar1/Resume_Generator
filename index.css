@@ -37,6 +37,11 @@
 
 }
 
+.card-header h3 {
+   margin: 10px 0;
+   font-size: 18px;
+ }
+
 /* Responsive Fix for Small Screens */
 @media (max-width: 600px) {
    .tagline {

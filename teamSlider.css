@@ -34,7 +34,7 @@
 
 @keyframes scroll {
   0% { transform: translateX(0); }
-  100% { transform: translateX(calc(-2px * 5)); } /* Moves only half due to duplication */
+  100% { transform: translateX(calc(-250px * 5)); } /* Moves only half due to duplication */
 }
 .profile {
   background: rgba(255, 255, 255, 0.1);
@@ -72,11 +72,12 @@
   margin-bottom: 10px;
 }
 
-h3 {
+  h3 {
   margin: 10px 0;
   font-size: 18px;
 }
+/*
 p {
   font-size: 14px;
   color: #ccc;
-}
+} */
